@@ -15,8 +15,19 @@ public class PilhaDinamica {
     }
 
     // Forma a qual Pilhas funcionam: First in - Last out
-    public void desempilhar(){
+    public String desempilhar(){
+        String itemRemovido;
+        if(estaVazia()){
+            System.out.println("Lista está vazia!");
+            return null;
+        }
 
+        // Salvando o conteudo que sera removido;
+        itemRemovido = inicio.getConteudo();
+
+        // Determinando o proximo No como o primeiro No
+        inicio = inicio.getProximo();
+        return itemRemovido;
     }
 
 
