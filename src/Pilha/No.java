@@ -1,8 +1,8 @@
 package Pilha;
 
 public class No{
-    String conteudo;
-    No proximo;
+    private String conteudo;
+    private No proximo;
 
     public No(String conteudo){
         this.conteudo = conteudo;
