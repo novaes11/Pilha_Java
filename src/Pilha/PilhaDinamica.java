@@ -49,9 +49,11 @@ public class PilhaDinamica {
             return;
         }
         No atual = inicio;
+        System.out.println("--- Topo da Pilha ---");
         while(atual != null){
             System.out.println(atual.getConteudo());
             atual = atual.getProximo();
         }
+        System.out.println("--- Base da Pilha ---");
     }
 }
