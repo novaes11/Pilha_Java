@@ -8,4 +8,22 @@ public class No{
         this.conteudo = conteudo;
         this.proximo = null;
     }
+
+    public No getProximo() {
+        return proximo;
+    }
+
+    public No setProximo(No proximo) {
+        this.proximo = proximo;
+        return this;
+    }
+
+    public String getConteudo() {
+        return conteudo;
+    }
+
+    public No setConteudo(String conteudo) {
+        this.conteudo = conteudo;
+        return this;
+    }
 }
