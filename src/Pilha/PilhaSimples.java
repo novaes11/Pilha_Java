@@ -21,7 +21,6 @@ public class PilhaSimples {
     }
 
     public String desempilhar() {
-        // Como removemos o método estaVazia, checamos o topo diretamente aqui
         if (this.topo == -1) {
             System.out.println("A pilha está vazia!");
             return null;
@@ -39,7 +38,6 @@ public class PilhaSimples {
     }
 
     public void exibir() {
-        // Checamos o topo diretamente aqui também
         if (this.topo == -1) {
             System.out.println("A pilha está vazia!");
             return;
